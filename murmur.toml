@@ -1,0 +1,147 @@
+# Main Syntax Highlighting
+# Murmur Helix Theme
+# Copyright : https://www.reddit.com/user/soupertonic/
+# Theme Creator : https://gist.github.com/gokayburuc
+# Created: 2025-04-13
+
+
+"attribute" = { fg = "color4" }
+"keyword" = { fg = "color2" }
+"keyword.directive" = { fg = "color1" }
+"keyword.storage.modifier" = { fg = "color2" }
+"keyword.storage.type" = { fg = "color2" }
+"keyword.control.import" = { fg = "color2" }
+"keyword.function" = { fg = "color2" }
+"namespace" = { fg = "color4" }
+"operator" = { fg = "color2" }
+
+"special" = { fg = "color3" }
+"variable" = { fg = "foreground" }
+"variable.builtin" = { fg = "color3" }
+"variable.parameter" = { fg = "color3" }
+"type" = { fg = "color3" }
+"type.builtin" = { fg = "color3", modifiers = ["bold"] }
+"constructor" = { fg = "color3" }
+
+"function" = { fg = "color4" }
+"function.macro" = { fg = "color5" }
+"function.builtin" = { fg = "color4", modifiers = ["bold"] }
+"function.special" = { fg = "color5" }
+
+"comment" = { fg = "color8" }
+
+"string" = { fg = "color6" }
+"constant" = { fg = "color6" }
+"constant.builtin" = { fg = "color6", modifiers = ["bold"] }
+"constant.character" = { fg = "color6" }
+"constant.character.escape" = { fg = "color1", modifiers = ["bold"] }
+
+"label" = { fg = "color2" }
+"module" = { fg = "color4" }
+"tag" = { fg = "color2" }
+
+"punctuation" = { fg = "color3" }
+"punctuation.delimiter" = { fg = "color2" }
+"punctuation.bracket" = { fg = "color3" }
+"punctuation.special" = { fg = "color3" }
+"variable.other.member" = { fg = "color4" }
+
+# Markdown/Markup
+"markup.heading" = "color2"
+"markup.list" = "color1"
+"markup.bold" = { fg = "color3", modifiers = ["bold"] }
+"markup.italic" = { fg = "color5", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "color6", modifiers = ["underlined"] }
+"markup.link.text" = "color4"
+"markup.quote" = "color6"
+"markup.raw" = "color2"
+
+# Diff
+"diff.plus" = { fg = "color2" }
+"diff.delta" = { fg = "color3" }
+"diff.minus" = { fg = "color1" }
+
+# UI
+"ui.background" = { bg = "background" }
+
+"ui.virtual.whitespace" = { fg = "color8" }
+"ui.virtual.inlay-hint" = { fg = "color8", modifiers = ["italic"] }
+
+"ui.linenr" = { fg = "color8" }
+"ui.linenr.selected" = { fg = "color3", modifiers = ["bold"] }
+"ui.gutter.selected" = { bg = "color0" }
+"ui.cursorline" = { bg = "color0" }
+
+"ui.statusline" = { fg = "foreground", bg = "color0" }
+"ui.statusline.inactive" = { fg = "color7", bg = "color0" }
+"ui.statusline.normal" = { fg = "background", bg = "color4", modifiers = ["bold"]}
+"ui.statusline.insert" = { fg = "background", bg = "color2", modifiers = ["bold"]}
+"ui.statusline.select" = { fg = "background", bg = "color3", modifiers = ["bold"]}
+"ui.statusline.seperator" = { bg = "color3" }
+
+"ui.popup" = { fg = "foreground", bg = "color0" }
+"ui.menu.selected" = { fg = "color0", bg = "foreground"}
+"ui.menu" = { fg = "color7", bg = "color0" }
+"ui.window" = { fg = "color7" }
+"ui.help" = { modifiers = ["reversed"] }
+
+"ui.popup.info" = { fg = "color0", bg = "color8", modifiers = ["bold"] }
+
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "color4", modifiers = ["bold"]}
+"ui.text.inactive" = { fg = "color8" }
+"ui.text.info" = { fg = "color6" }
+"ui.highlight" = { fg = "color3" }
+
+"ui.cursor.primary" = { fg = "background", bg = "foreground" }
+"ui.cursor.select" = { fg = "color0", bg = "color6" }
+"ui.cursorline.primary" = { bg = "color0" }
+"ui.cursorline.secondary" = { bg = "color8" }
+
+"ui.selection" = { bg = "selection_background" }
+"ui.selection.primary" = { bg = "color8" }
+
+"ui.virtual.indent-guide" = { fg = "color0" }
+"ui.virtual.ruler" = { fg = "color1" }
+
+"ui.cursor" = { fg = "color0", bg = "color1" }
+"ui.cursor.insert" = { fg = "background", bg = "foreground" }
+"ui.cursor.match" = { fg = "background", bg = "color3" }
+
+# Diagnostics
+"warning" =  { fg = "color3", modifiers = ["bold", "underlined"] }
+"error" = { fg = "color1", modifiers = ["bold", "underlined"] }
+"info" = { fg = "color4", modifiers = ["bold", "underlined"] }
+"hint" = { fg = "color8", modifiers = ["bold", "underlined"] }
+
+"diagnostic.warning" = { fg = "color3", bg = "color0", underline = { style = "curl", color = "color3" } }
+"diagnostic.error" = { fg = "color1", bg = "color0", underline = { style = "curl", color = "color1" } }
+"diagnostic.info" = { fg = "color4", bg = "color0", underline = { style = "curl", color = "color4" } }
+"diagnostic.hint" = { fg = "color6", bg = "color0", underline = { style = "curl", color = "color6" } }
+
+[palette]
+foreground = "#E7D6DE"
+background = "#170A11"
+
+color0 = "#5E4554"
+color1 = "#CA8EA2"
+color2 = "#AFC4AC"
+color3 = "#D8AA92"
+color4 = "#9FA3C9"
+color5 = "#D2A3CC"
+color6 = "#B2C7CD"
+color7 = "#E7D6DE"
+color8 = "#726376"
+color9 = "#CA8EA2"
+color10 = "#AFC4AC"
+color11 = "#D8AA92"
+color12 = "#9FA3C9"
+color13 = "#D2A3CC"
+color14 = "#B2C7CD"
+color15 = "#E7D6DE"
+
+selection_foreground = "#170A11"
+selection_background = "#E7D6DE"
+cursor = "#CA8EA2"
+url_color = "#B2C7CD"

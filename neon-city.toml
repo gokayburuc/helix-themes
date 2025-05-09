@@ -1,4 +1,5 @@
-# Nightwolf Helix Theme 
+
+# Neon City Helix Theme
 # Copyright: "Gokay BURUC"
 # Theme Creator :https://github.com/gokayburuc
 # Created : 2025-05-09
@@ -17,11 +18,14 @@
 'label' = { fg = 'green' }
 'namespace' = { fg = 'white' }
 'operator' = { fg = 'blue' }
+# 'punctuation.bracket' = { fg = 'blue' }
 'punctuation.bracket' = { fg = 'red' }
+# 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
 'punctuation.special' = {fg = 'red'}
 'string' = { fg = 'green' }
-'tag' = { fg = 'cyan' }
+# 'tag' = { fg = 'cyan' }
+'tag' = { fg = 'red' }
 'type' = { fg = 'blue' }
 'variable' = { fg = 'cyan' }
 'variable.parameter' = { fg = 'white' }
@@ -48,7 +52,7 @@
 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'bg-alt' }
 'ui.linenr' = { fg = 'base4' }
-'ui.linenr.selected' = { fg = 'orange', bg = 'bg-alt', modifiers = ['bold'] }
+'ui.linenr.selected' = { fg = 'white', bg = 'bg-alt', modifiers = ['bold'] }
 'ui.statusline' = { fg = 'fg', bg = 'base3' }
 'ui.statusline.normal' = { bg = 'base3' }
 'ui.statusline.insert' = { bg = 'base3' }
@@ -83,21 +87,20 @@
 'special' = { fg = 'orange' }
 
 [palette]
-white = '#ffffff'
-black = '#000000'
-red = '#f95966'
-green = '#8cf67f'
-blue = '#0098fb'
-yellow = '#fae18d'
-magenta = '#ee41fd'
-cyan = '#00e3df'
-gray = '#5b6d78'
-orange = '#D85F00'
+white = '#e5e5e5'
+black = '#170625'
+red = '#ff6e98'
+green = '#16cf47'
+blue = '#02b9e5'
+yellow = '#d7ffa3'
+magenta = '#ff008b'
+cyan = '#76e5c9'
+gray = '#7E7986'
+orange = '#ff5c00'
 
-# Custom to doom
-bg = '#000000'
-bg-alt = '#000000'
-fg = '#ffffff'
-base2 = '#1A1A1A'
-base3 = '#4D4D4D'
-base4 = '#333333'
+bg = '#170625'
+bg-alt = '#170625'
+fg = '#e5e5e5'
+base4 = '#3E255A'
+base3 = '#0F0A14'
+base2 = '#130A1D'

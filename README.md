@@ -9,6 +9,8 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [Murmur](./murmur.toml) — A soft, pastel-toned custom theme.
 - [Solarized Osaka](./solarized-osaka.toml) — A variant of Solarized with Osaka-inspired hues.
 - [NightWolf](./nightwolf.toml) - AMOLED theme for NightWolves
+- [LowEyeStrain](./low-eye-strain.toml) - Low Eye Strain Theme For Night Owls
+- [NeonCity](./neon-city.toml) - Neon City Theme for Synthwave Lovers
 ---
 
 ## Screenshots
@@ -24,6 +26,15 @@ Solarized Osaka:
 NightWolf:
 
 ![NightWolf](./img/nightwolf.png)
+
+LowEyeStrain:
+
+![LowEyeStrain](./img/low-eye-strain.png)
+
+NeonCity:
+
+![NeonCity](./img/neon-city.png)
+
 
 ## 🚀 Usage
 
@@ -68,5 +79,5 @@ This overrides the background to be transparent while keeping the rest of the th
 
 ## 🧊 Contributing
 
-Feel free to fork the repo and create your own themes or submit pull requests to contribute!  
+Feel free to fork the repo and create your own themes or submit pull requests to contribute!
 If you create your own transparent variant or custom theme, feel free to share it back.

@@ -1,4 +1,4 @@
-# Nightwolf Helix Theme 
+# Low-Eye-Strain Helix Theme
 # Copyright: "Gokay BURUC"
 # Theme Creator :https://github.com/gokayburuc
 # Created : 2025-05-09
@@ -83,21 +83,20 @@
 'special' = { fg = 'orange' }
 
 [palette]
-white = '#ffffff'
-black = '#000000'
-red = '#f95966'
-green = '#8cf67f'
-blue = '#0098fb'
-yellow = '#fae18d'
-magenta = '#ee41fd'
+white = '#d8d8da'
+black = '#06131f'
+red = '#e51a34'
+green = '#00ff46'
+blue = '#095390'
+yellow = '#e7fc00'
+magenta = '#a640bf'
 cyan = '#00e3df'
-gray = '#5b6d78'
-orange = '#D85F00'
+gray = '#06365e'
+orange = '#e7c584'
 
-# Custom to doom
-bg = '#000000'
-bg-alt = '#000000'
-fg = '#ffffff'
-base2 = '#1A1A1A'
-base3 = '#4D4D4D'
-base4 = '#333333'
+bg = '#06131f'
+bg-alt = '#06131f'
+fg = '#d8d8da'
+base2 = '#080C10'
+base3 = '#081018'
+base4 = '#06131F'

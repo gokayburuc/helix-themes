@@ -1,7 +1,6 @@
-# Main Syntax Highlighting
 # Murmur Helix Theme
 # Copyright : https://www.reddit.com/user/soupertonic/
-# Theme Creator : https://gist.github.com/gokayburuc
+# Theme Creator : https://github.com/gokayburuc
 # Created: 2025-04-13
 
 
@@ -75,13 +74,19 @@
 
 "ui.statusline" = { fg = "foreground", bg = "color0" }
 "ui.statusline.inactive" = { fg = "color7", bg = "color0" }
-"ui.statusline.normal" = { fg = "background", bg = "color4", modifiers = ["bold"]}
-"ui.statusline.insert" = { fg = "background", bg = "color2", modifiers = ["bold"]}
-"ui.statusline.select" = { fg = "background", bg = "color3", modifiers = ["bold"]}
+"ui.statusline.normal" = { fg = "background", bg = "color4", modifiers = [
+  "bold",
+] }
+"ui.statusline.insert" = { fg = "background", bg = "color2", modifiers = [
+  "bold",
+] }
+"ui.statusline.select" = { fg = "background", bg = "color3", modifiers = [
+  "bold",
+] }
 "ui.statusline.seperator" = { bg = "color3" }
 
 "ui.popup" = { fg = "foreground", bg = "color0" }
-"ui.menu.selected" = { fg = "color0", bg = "foreground"}
+"ui.menu.selected" = { fg = "color0", bg = "foreground" }
 "ui.menu" = { fg = "color7", bg = "color0" }
 "ui.window" = { fg = "color7" }
 "ui.help" = { modifiers = ["reversed"] }
@@ -89,7 +94,7 @@
 "ui.popup.info" = { fg = "color0", bg = "color8", modifiers = ["bold"] }
 
 "ui.text" = { fg = "foreground" }
-"ui.text.focus" = { fg = "color4", modifiers = ["bold"]}
+"ui.text.focus" = { fg = "color4", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "color8" }
 "ui.text.info" = { fg = "color6" }
 "ui.highlight" = { fg = "color3" }
@@ -110,7 +115,7 @@
 "ui.cursor.match" = { fg = "background", bg = "color3" }
 
 # Diagnostics
-"warning" =  { fg = "color3", modifiers = ["bold", "underlined"] }
+"warning" = { fg = "color3", modifiers = ["bold", "underlined"] }
 "error" = { fg = "color1", modifiers = ["bold", "underlined"] }
 "info" = { fg = "color4", modifiers = ["bold", "underlined"] }
 "hint" = { fg = "color8", modifiers = ["bold", "underlined"] }

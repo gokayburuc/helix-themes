@@ -21,6 +21,10 @@ Solarized Osaka:
 
 ![Solarized-Osaka](./img/solarized-osaka-ss.png)
 
+NightWolf:
+
+![NightWolf](./img/nightwolf.png)
+
 ## 🚀 Usage
 
 To use one of these themes in Helix:

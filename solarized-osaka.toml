@@ -1,4 +1,9 @@
-# Solarized Osaka 
+# Solarized Osaka Helix Theme 
+# Author: "Gokay BURUC" 
+# Created: 2025-05-09
+# Github: https://github.com/gokayburuc
+
+# Solarized Osaka
 
 "attribute" = { fg = "blue300" }
 "keyword" = { fg = "green500" }
@@ -66,21 +71,25 @@
 
 "ui.statusline" = { fg = "base1", bg = "base03" }
 "ui.statusline.inactive" = { fg = "base0", bg = "base04" }
-"ui.statusline.normal" = { fg = "base03", bg = "blue500", modifiers = ["bold"]}
-"ui.statusline.insert" = { fg = "base04", bg = "green500", modifiers = ["bold"]}
-"ui.statusline.select" = { fg = "base04", bg = "yellow500", modifiers = ["bold"]}
+"ui.statusline.normal" = { fg = "base03", bg = "blue500", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base04", bg = "green500", modifiers = [
+  "bold",
+] }
+"ui.statusline.select" = { fg = "base04", bg = "yellow500", modifiers = [
+  "bold",
+] }
 "ui.statusline.seperator" = { bg = "yellow500" }
 
 "ui.popup" = { fg = "base1", bg = "base02" }
-"ui.menu.selected" = { fg = "base02", bg = "base2"}
+"ui.menu.selected" = { fg = "base02", bg = "base2" }
 "ui.menu" = { fg = "base0", bg = "base03" }
 "ui.window" = { fg = "base3" }
 "ui.help" = { modifiers = ["reversed"] }
 
-"ui.popup.info" = {fg = "base02", bg = "base04", modifiers = ["bold"]}
+"ui.popup.info" = { fg = "base02", bg = "base04", modifiers = ["bold"] }
 
 "ui.text" = { fg = "base1" }
-"ui.text.focus" = { fg = "blue300", modifiers = ["bold"]}
+"ui.text.focus" = { fg = "blue300", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "base01" }
 "ui.text.info" = { fg = "base2" }
 "ui.highlight" = { fg = "yellow100" }
@@ -96,17 +105,17 @@
 "ui.virtual.indent-guide" = { fg = "base02" }
 "ui.virtual.ruler" = { fg = "red900" }
 
-"ui.cursor" = {fg = "base02", bg = "cyan900"}
-"ui.cursor.insert" = {fg = "base04", bg = "base3"}
+"ui.cursor" = { fg = "base02", bg = "cyan900" }
+"ui.cursor.insert" = { fg = "base04", bg = "base3" }
 "ui.cursor.match" = { fg = "base04", bg = "base00" }
 
-"warning" =  { fg = "orange500", modifiers= ["bold", "underlined"] }
-"error" = { fg = "red500", modifiers= ["bold", "underlined"] }
-"info" = { fg = "blue500", modifiers= ["bold", "underlined"] }
-"hint" = { fg = "base01", modifiers= ["bold", "underlined"] }
+"warning" = { fg = "orange500", modifiers = ["bold", "underlined"] }
+"error" = { fg = "red500", modifiers = ["bold", "underlined"] }
+"info" = { fg = "blue500", modifiers = ["bold", "underlined"] }
+"hint" = { fg = "base01", modifiers = ["bold", "underlined"] }
 
 "diagnostic.warning" = { fg = "yellow500", bg = "yellow900", underline = { style = "curl", color = "yellow900" } }
-"diagnostic.error" = { fg = "red500", bg = "red900",underline = { style = "curl", color = "red900" } }
+"diagnostic.error" = { fg = "red500", bg = "red900", underline = { style = "curl", color = "red900" } }
 "diagnostic.info" = { fg = "blue500", bg = "blue900", underline = { style = "curl", color = "blue900" } }
 "diagnostic.hint" = { fg = "cyan500", bg = "cyan900", underline = { style = "curl", color = "cyan900" } }
 
@@ -169,4 +178,3 @@ green700 = "#596600"
 green500 = "#859900"
 green300 = "#BAFB00"
 green100 = "#D6FFAC"
-

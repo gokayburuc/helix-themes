@@ -8,7 +8,7 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 
 - [Murmur](./murmur.toml) — A soft, pastel-toned custom theme.
 - [Solarized Osaka](./solarized-osaka.toml) — A variant of Solarized with Osaka-inspired hues.
-
+- [NightWolf](./nightwolf.toml) - AMOLED theme for NightWolves
 ---
 
 ## Screenshots

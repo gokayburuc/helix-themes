@@ -17,11 +17,14 @@
 'label' = { fg = 'green' }
 'namespace' = { fg = 'white' }
 'operator' = { fg = 'blue' }
+# 'punctuation.bracket' = { fg = 'blue' }
 'punctuation.bracket' = { fg = 'red' }
+# 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
 'punctuation.special' = {fg = 'red'}
 'string' = { fg = 'green' }
-'tag' = { fg = 'cyan' }
+# 'tag' = { fg = 'cyan' }
+'tag' = { fg = 'red' }
 'type' = { fg = 'blue' }
 'variable' = { fg = 'cyan' }
 'variable.parameter' = { fg = 'white' }
@@ -97,6 +100,6 @@ orange = '#e7c584'
 bg = '#06131f'
 bg-alt = '#06131f'
 fg = '#d8d8da'
-base2 = '#080C10'
-base3 = '#081018'
-base4 = '#06131F'
+base2 = '#0c2740'
+base3 = '#133c61'
+base4 = '#194f80'

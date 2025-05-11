@@ -1,7 +1,3 @@
-# Nightwolf Helix Theme 
-# Copyright: "Gokay BURUC"
-# Theme Creator :https://github.com/gokayburuc
-# Created : 2025-05-09
 
 'attribute' = { fg = 'blue' }
 'comment' = { fg = 'gray', modifiers = ['italic'] }
@@ -17,7 +13,9 @@
 'label' = { fg = 'green' }
 'namespace' = { fg = 'white' }
 'operator' = { fg = 'blue' }
+# 'punctuation.bracket' = { fg = 'blue' }
 'punctuation.bracket' = { fg = 'red' }
+# 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
 'punctuation.special' = {fg = 'red'}
 'string' = { fg = 'green' }
@@ -37,13 +35,13 @@
 'markup.list' = { fg = 'red' }
 'markup.quote' = { fg = 'green', modifiers = ['italic'] }
 'markup.raw.block' = { fg = 'green', bg = 'bg' }
-'markup.raw.inline' = { fg = 'green', bg = 'bg' }
+'markup.raw.inline' = { fg = 'green', bg = 'base4' }
 
 'diff.plus' = { fg = 'green' }
 'diff.minus' = { fg = 'red' }
 'diff.delta' = { fg = 'blue' }
 
-'ui.background' = { bg = 'bg' }
+'ui.background'= { bg = 'bg' }
 'ui.cursor' = { bg = 'orange', fg = 'bg-alt' }
 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'bg-alt' }
@@ -73,10 +71,10 @@
 'info' = { fg = 'blue', modifiers = ['bold'] }
 'hint' = { fg = 'blue', modifiers = ['bold'] }
 
-'diagnostic.hint' = { underline = { color = 'red', style = "curl" } }
-'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
-'diagnostic.info' = { underline = { color = 'blue', style = "curl" } }
-'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
+'diagnostic.hint'= { underline = { color = 'red', style = "curl"} }
+'diagnostic.error'= { underline = { color = 'red', style = "curl"} }
+'diagnostic.info'= { underline = { color = 'blue', style = "curl"} }
+'diagnostic.warning'= { underline = { color = 'yellow', style = "curl"} }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 
@@ -101,3 +99,4 @@ fg = '#ffffff'
 base2 = '#1A1A1A'
 base3 = '#4D4D4D'
 base4 = '#333333'
+

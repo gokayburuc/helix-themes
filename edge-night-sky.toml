@@ -1,7 +1,7 @@
-# Neon City Helix Theme
+# Edge Night Sky Helix Theme
 # Copyright: "Gokay BURUC"
 # Theme Creator :https://github.com/gokayburuc
-# Created : 2025-05-09
+# Created : 2025-05-11
 
 'attribute' = { fg = 'blue' }
 'comment' = { fg = 'gray', modifiers = ['italic'] }
@@ -47,11 +47,11 @@
 'diff.delta' = { fg = 'blue' }
 
 'ui.background' = { bg = 'bg' }
-'ui.cursor' = { bg = 'magenta', fg = 'bg-alt' }
+'ui.cursor' = { bg = 'orange', fg = 'bg-alt' }
 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'bg-alt' }
 'ui.linenr' = { fg = 'base4' }
-'ui.linenr.selected' = { fg = 'white', bg = 'bg-alt', modifiers = ['bold'] }
+'ui.linenr.selected' = { fg = 'orange', bg = 'bg-alt', modifiers = ['bold'] }
 'ui.statusline' = { fg = 'fg', bg = 'base3' }
 'ui.statusline.normal' = { bg = 'base3' }
 'ui.statusline.insert' = { bg = 'base3' }
@@ -69,7 +69,7 @@
 'ui.virtual.ruler' = { bg = 'black' }
 'ui.menu' = { fg = 'fg', bg = 'bg-alt' }
 'ui.menu.selected' = { bg = 'base3', fg = 'fg' }
-'ui.selection' = { bg = 'base4' }
+'ui.selection' = { bg = 'base2' }
 
 'warning' = { fg = 'orange' }
 'error' = { fg = 'red', modifiers = ['bold'] }
@@ -86,20 +86,20 @@
 'special' = { fg = 'orange' }
 
 [palette]
-white = '#e5e5e5'
-black = '#170625'
-red = '#ff6e98'
-green = '#16cf47'
-blue = '#02b9e5'
-yellow = '#d7ffa3'
-magenta = '#ff008b'
-cyan = '#76e5c9'
-gray = '#7E7986'
-orange = '#ff5c00'
+white = '#d4d1d0'
+black = '#0e1f26'
+red = '#ff0028'
+green = '#00dc9b'
+blue = '#52c1ec'
+yellow = '#d2f292'
+magenta = '#bb29f6'
+cyan = '#a6edf4'
+gray = '#2785aa'
+orange = '#f0c4b4'
 
-bg = '#170625'
-bg-alt = '#170625'
-fg = '#e5e5e5'
-base4 = '#3E255A'
-base3 = '#0F0A14'
-base2 = '#130A1D'
+bg = '#0e1f26'
+bg-alt = '#0e1f26'
+fg = '#00dc9b'
+base2 = '#1b3d4b'
+base3 = '#295b70'
+base4 = '#377a95'

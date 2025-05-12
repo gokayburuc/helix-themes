@@ -9,8 +9,11 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [Murmur](./murmur.toml) — A soft, pastel-toned custom theme.
 - [Solarized Osaka](./solarized-osaka.toml) — A variant of Solarized with Osaka-inspired hues.
 - [NightWolf](./nightwolf.toml) - AMOLED theme for NightWolves
-- [LowEyeStrain](./low-eye-strain.toml) - Low Eye Strain Theme For Night Owls
+- [LowEyeStrain](./low-eye-strain.toml) - Low Eye Strain Dark Neon Theme For Night Owls
 - [NeonCity](./neon-city.toml) - Neon City Theme for Synthwave Lovers
+- [EdgeNightSky](./edge-night-sky.toml) - Low Contrast Night Theme for Night Coders 
+- [Moxer](./moxer.toml) - Moxer Theme Port Variant from VSCode
+
 ---
 
 ## Screenshots
@@ -39,6 +42,9 @@ EdgeNightSky:
 
 ![EdgeNight](./img/edge-night-sky.png)
 
+Moxer:
+
+![Moxer](./img/moxer.png)
 
 ## 🚀 Usage
 

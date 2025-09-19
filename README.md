@@ -13,6 +13,7 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [NeonCity](./neon-city.toml) - Neon City Theme for Synthwave Lovers
 - [EdgeNightSky](./edge-night-sky.toml) - Low Contrast Night Theme for Night Coders 
 - [Moxer](./moxer.toml) - Moxer Theme Port Variant from VSCode
+- [Strokai](./strokai.toml) - Strokai Theme Port form VSCode
 
 ---
 
@@ -45,6 +46,9 @@ EdgeNightSky:
 Moxer:
 
 ![Moxer](./img/moxer.png)
+
+Strokai:
+![Strokai](./img/strokai.png)
 
 ## 🚀 Usage
 

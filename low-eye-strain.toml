@@ -10,7 +10,7 @@
 'constant' = { fg = 'magenta' }
 'constant.numeric' = { fg = 'orange' }
 'constructor' = { fg = 'red' }
-'function' = { fg = 'yellow' }
+'function' = { fg = 'yellow', modifier = ['italic', 'bold'] }
 'function.builtin' = { fg = 'blue' }
 'function.method' = { fg = 'white' }
 'keyword' = { fg = 'red' }
@@ -21,10 +21,10 @@
 'punctuation.bracket' = { fg = 'red' }
 # 'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
-'punctuation.special' = {fg = 'red'}
+'punctuation.special' = { fg = 'red' }
 'string' = { fg = 'green' }
 # 'tag' = { fg = 'cyan' }
-'tag' = { fg = 'red' }
+'tag' = { fg = 'red', modifier = ['bold'] }
 'type' = { fg = 'blue' }
 'variable' = { fg = 'cyan' }
 'variable.parameter' = { fg = 'white' }
@@ -86,20 +86,20 @@
 'special' = { fg = 'orange' }
 
 [palette]
-white = '#d8d8da'
-black = '#06131f'
-red = '#e51a34'
-green = '#00ff46'
+white = '#ffffff'
+black = '#010A18'
+red = '#C2474E'
+green = '#50DD5E'
 blue = '#095390'
-yellow = '#e7fc00'
-magenta = '#a640bf'
-cyan = '#00e3df'
+yellow = '#D5DD50'
+magenta = '#B370CC'
+cyan = '#6BC7B1'
 gray = '#06365e'
 orange = '#e7c584'
 
-bg = '#06131f'
-bg-alt = '#06131f'
-fg = '#d8d8da'
-base2 = '#0c2740'
-base3 = '#133c61'
-base4 = '#194f80'
+bg = '#010A18'
+bg-alt = '#030913'
+fg = '#ffffff'
+base2 = '#04070E'
+base3 = '#040509'
+base4 = '#030304'

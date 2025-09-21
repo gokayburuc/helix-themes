@@ -14,6 +14,7 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [EdgeNightSky](./edge-night-sky.toml) - Low Contrast Night Theme for Night Coders 
 - [Moxer](./moxer.toml) - Moxer Theme Port Variant from VSCode
 - [Strokai](./strokai.toml) - Strokai Theme Port form VSCode
+- [Lucy](./lucy.toml) - Cyberpunk Edgerunners' main character Lucyna Kushinada inspired Helix Editor Theme (Palette owner @gokayburuc)
 
 ---
 
@@ -49,6 +50,9 @@ Moxer:
 
 Strokai:
 ![Strokai](./img/strokai.png)
+
+Lucy:
+![Lucy](./img/lucy.png)
 
 ## 🚀 Usage
 

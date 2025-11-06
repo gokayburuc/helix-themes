@@ -1,27 +1,27 @@
-# Lucy-Helix Theme
+# Synthwave84 Helix Theme 
 # Copyright: "Gokay BURUC"
 # Theme Creator :https://github.com/gokayburuc
-# Created : 2025-09-21
+# Created : 2025-11-06
 
 
 # Attribute Highight 
-'attribute' = { fg = 'magenta500' }
+'attribute' = { fg = 'yellow' }
 
 # Constructor Highlight
-'constructor' = { fg = 'pink', modifiers = ['bold'] }
+'constructor' = { fg = 'pink', modifiers = ['italic'] }
 
 # Constant Highlight
-# 'constant.builtin' = { fg = 'magenta' }
+'constant' = { fg = 'red', modifiers = ['italic'] }
+# 'constant.builtin' = { fg = 'pink' }
 # 'constant.builtin.boolean' = { fg = 'yellow' }
-# 'constant.character' = {}
+'constant.character' = {fg = 'yellow100'}
 # 'constant.character.escape' = {}
-'constant' = { fg = 'magenta300', modifiers = ['italic'] }
 # 'constant.numeric' = { fg = 'orange' }
 # 'constant.numeric.float' = {}
 # 'constant.numeric.integer' = {}
 
 # String Highlights
-'string' = { fg = 'cyan700', modifiers = ['italic'] }
+'string' = { fg = 'orange', modifiers = ['italic'] }
 # 'string.regexp' = {}
 # 'string.special' = {}
 # 'string.special.path' = {}
@@ -31,70 +31,70 @@
 # Comment Highlights
 # 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
 # 'comment.block' = { fg = 'green', modifiers = ['italic'] }
-'comment' = { fg = 'magenta100', modifiers = ['italic'] }
+'comment' = { fg = 'gray100', modifiers = ['italic'] }
 # 'comment.line' = {}
 # 'comment.line.documentation' = {}
 # 'comment.unused' = {}
 
 # Variable Highlights
-'variable' = { fg = 'magenta500', modifiers = ['italic', 'bold'] }
+'variable' = { fg = 'cyan300', modifiers = ['italic', 'bold'] }
 # 'variable.builtin' = { fg = 'yellow' }
 # 'variable.parameter' = { fg = 'white' }
-# 'variable.other' = { fg = 'blue' }
-'variable.other.member' = { fg = 'cyan300', modifiers = ['italic'] }
-'variable.other.member.private' = { fg = 'cyan100' }
+# 'variable.other' = { fg = 'cyan' }
+'variable.other.member' = { fg = 'green100', modifiers = ['italic','bold'] }
+'variable.other.member.private' = { fg = 'green300', modifiers = ['italic','bold']}
 
 # Label Highlights
-'label' = { fg = 'pink', modifiers = ['bold', 'italic'] }
+'label' = { fg = 'yellow', modifiers = [ 'italic'] }
 
 # Punctuation Highlights
-'punctuation' = { fg = 'pink', modifiers = ['bold'] }
-# 'punctuation.bracket' = { fg = 'red' }
-# 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
-# 'punctuation.special' = { fg = 'red' }
+'punctuation' = { fg = 'green', modifiers = ['bold'] }
+'punctuation.bracket' = { fg = 'yellow', modifiers=['bold']}
+'punctuation.delimiter' = { fg = 'white', modifiers = ['bold'] }
+'punctuation.special' = { fg = 'white' }
 
 # Keyword Highlights
-'keyword' = { fg = 'cyan', modifiers = ['bold', 'italic'] }
-# 'keyword.control' = {}
+# 'keyword' = { fg = 'yellow', modifiers = ['bold', 'italic'] }
+'keyword.control' = {fg = 'yellow', modifiers = ['bold']}
 # 'keyword.control.conditional' = {}
 # 'keyword.control.repeat' = {}
-# 'keyword.control.import' = {}
+'keyword.control.import' = { fg = 'yellow', modifiers = ['italic']}
 # 'keyword.control.return' = {}
 # 'keyword.control.exception' = {}
 
 # Operator Highlights
-'operator' = { fg = 'pink300', modifiers = ['bold'] }
+'operator' = { fg = 'yellow300', modifiers = ['bold'] }
 
 # Directive Highlights (and,or,not)
-'directive' = { fg = 'magenta700' }
+'directive' = { fg = 'yellow500' }
 
 # Special Highlights 
-'special' = { fg = 'pink' }
+'special' = { fg = 'yellow' }
 
 # Namespace Highlights
-'namespace' = { fg = 'pink500', modifiers = ['italic'] }
+'namespace' = { fg = 'yellow500', modifiers = ['italic'] }
 
 # Function Highlights 
-'function' = { fg = 'magenta', modifiers = ['bold', 'italic'] }
-# 'function.builtin' = { fg = 'blue' }
-# 'function.method' = { fg = 'white' }
-# 'function.method.private' = { fg = 'red' }
-# 'function.macro' = {}
-# 'function.special' = {}
+# 'function' = { fg = 'cyan', modifiers = ['bold', 'italic'] }
+'function.builtin' = { fg = 'yellow', modifiers = ['bold','italic'] }
+'function.method' = { fg = 'cyan100' , modifiers= ['italic']}
+'function.method.private' = { fg = 'cyan300' }
+'function.macro' = {fg = 'cyan500'}
+'function.special' = {fg = 'cyan500'}
 
 # Tag Highlights 
-'tag' = { fg = 'magenta700', modifiers = ['italic','bold'] }
+'tag' = { fg = 'green300', modifiers = ['italic','bold'] }
 
 # Type Highlights 
-'type' = { fg = 'magenta500', modifiers = ['italic']}
+'type' = { fg = 'yellow300', modifiers = ['italic']}
 # 'type.bultin' = { fg = '' }
 # 'type.parameter' = { fg = '' }
 # 'type.enum' = { fg = '' }
 # 'type.enum.variant' = { fg = '' }
 
 # Markup Highlights 
-'markup.bold' = { fg = 'cyan700', modifiers = ['bold'] }
-'markup.italic' = { fg = 'magenta700', modifiers = ['italic'] }
+'markup.bold' = { fg = 'cyan100', modifiers = ['bold'] }
+'markup.italic' = { fg = 'green300', modifiers = ['italic'] }
 # 'markup.strikethrough' = { modifiers = ['crossed_out'] }
 'markup.heading' = { fg = 'pink', modifiers = ['bold'] }
 # 'markup.heading.marker' = { fg = 'red' }
@@ -104,25 +104,25 @@
 # 'markup.heading.4' = { fg = 'red' }
 # 'markup.heading.5' = { fg = 'red' }
 # 'markup.heading.6' = { fg = 'red' }
-'markup.link' = { fg = 'pink700' }
-# 'markup.link.url' = { fg = 'magenta' }
-# 'markup.link.text' = { fg = 'orange' }
-# 'markup.link.label' = { fg = 'green' }
-'markup.list' = { fg = 'magenta700', modifiers = ['bold'] }
+# 'markup.link' = { fg = 'pink700' }
+'markup.link.url' = { fg = 'yellow100' }
+'markup.link.text' = { fg = 'green100' }
+'markup.link.label' = { fg = 'yellow100' }
+'markup.list' = { fg = 'pink700', modifiers = ['bold'] }
 # 'markup.list.unnumbered' = { fg = 'red' }
 # 'markup.list.numbered' = { fg = 'red' }
 # 'markup.list.checked' = { fg = 'red' }
 # 'markup.list.unchecked' = { fg = 'red' }
 'markup.quote' = { fg = 'cyan500', bg = 'base01', modifiers = ['italic'] }
-'markup.raw' = { fg = 'pink'}
+'markup.raw' = { fg = 'green100'}
 # 'markup.raw.block' = { fg = 'green', bg = 'base00' }
 # 'markup.raw.inline' = { fg = 'green', bg = 'base00' }
 
 # Diff Highlights
 # 'diff.delta.conflict' = { fg = 'pink' }
-'diff.delta' = { fg = 'magenta' }
+'diff.delta' = { fg = 'pink' }
 # 'diff.delta.gutter' = { fg = 'white' }
-# 'diff.delta.moved' = { fg = 'blue' }
+# 'diff.delta.moved' = { fg = 'cyan' }
 'diff.minus' = { fg = 'pink' }
 # 'diff.minus.gutter' = { fg = 'red' }
 'diff.plus' = { fg = 'cyan' }
@@ -202,7 +202,7 @@
 'ui.window' = { fg = 'gray' }
 
 'error' = { fg = 'red', modifiers = ['bold'] }
-'hint' = { fg = 'blue', modifiers = ['bold'] }
+'hint' = { fg = 'cyan', modifiers = ['bold'] }
 'info' = { fg = 'white', modifiers = ['bold'] }
 'warning' = { fg = 'orange', modifiers = ['bold']}
 
@@ -210,84 +210,83 @@
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
 'diagnostic.hint' = { underline = { color = 'red', style = "curl" } }
-'diagnostic.info' = { underline = { color = 'blue', style = "curl" } }
+'diagnostic.info' = { underline = { color = 'cyan', style = "curl" } }
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
 # 'tabstop' = {}
 
 
+
+
+
+# NOTE: color palette 
+
 [palette]
-black = '#010A18'
+# black = ''
 # black100 = ''
 # black300 = ''
 # black500 = ''
 # black700 = ''
-# black900 = ''
-blue = '#095390'
+# blue = ''
 # blue100 = ''
 # blue300 = ''
 # blue500 = ''
 # blue700 = ''
-# blue900 = ''
-cyan = '#61e4c7'
-# cyan100 = ''
-cyan300 = '#64847B'
-cyan500 = '#6CA798'
-cyan700 = '#6BC7B1'
-# cyan900 = ''
-gray = '#06365e'
-# gray100 = ''
-# gray300 = ''
-# gray500 = ''
-# gray700 = ''
-# gray900 = ''
-green = '#50DD5E'
-# green100 = ''
-# green300 = ''
-# green500 = ''
-# green700 = ''
-# green900 = ''
-magenta = '#cc6ce0'
-magenta100 = '#574F5A'
-magenta300 = '#7D6583'
-magenta500 = '#9B70A5'
-magenta700 = '#B572C3'
-# magenta900 = ''
-orange = '#e7c584'
+cyan = '#41C1F1'
+cyan100 = '#5DADD1'
+cyan300 = '#6596AF'
+cyan500 = '#617B8A'
+cyan700 = '#4E575D'
+gray = '#818BB4'
+gray100 = '#7A819F'
+gray300 = '#6F7488'
+gray500 = '#60626D'
+gray700 = '#47484C'
+green = '#72EBAA'
+green100 = '#78CD9D'
+green300 = '#76AD8D'
+green500 = '#6B8A77'
+green700 = '#535E57'
+# magenta = ''
+# magenta100 = ''
+# magenta300 = ''
+# magenta500 = ''
+# magenta700 = ''
+orange = '#FF8B38'
 # orange100 = ''
 # orange300 = ''
 # orange500 = ''
 # orange700 = ''
 # orange900 = ''
-red = '#E00D2C'
-red100 = '#a15559'
-red300 = '#A15559'
-red500 = '#7E5556'
-red700 = '#C2474E'
-# red900 = ''
-white = '#ffffff'
+red = '#E43F4B'
+red100 = '#C6585E'
+red300 = '#A56063'
+red500 = '#825C5D'
+red700 = '#584A4A'
+white = '#EFEFF5'
 # white100 = ''
 # white300 = ''
 # white500 = ''
 # white700 = ''
-# white900 = ''
-yellow = '#f5ff00'
-# yellow100 = ''
-# yellow300 = ''
-# yellow500 = ''
-yellow700 = '#d5dd50'
-# yellow900 = ''
-pink ='#F90092'
-pink700 = '#D84E8B'
-pink500 = '#B45F80'
-pink300 = '#8D5F6F'
-pink100 = '#5F4E53'
-fg = '#C6CCDA'
+yellow = '#FED251'
+yellow100 = '#E3BD56'
+yellow300 = '#BDA366'
+yellow500 = '#958565'
+yellow700 = '#645E53'
+pink ='#F37ECC'
+pink100 = '#DC73B9'
+pink300 = '#B975A1'
+pink500 = '#926D84'
+pink700 = '#64565E'
+fg = '#EFEFF5'
 fg-alt = '#ABB2C2'
-bg = '#091C2A'
-bg-alt = '#0c1923'
-base00 = '#091C2A'
-base01 = '#0C1923'
-base02 = '#0D151C'
-base03 = '#0C1014'
-base04 = '#07080A'
+bg = '#241B2F'
+bg-alt = '#262335'
+base00 = '#241b2f'
+base01 = '#201A28'
+base02 = '#1B1721'
+base03 = '#151318'
+base04 = '#0D0C0E'
+
+# TODO: fg-alt white color variation
+# TODO: Orange variations 

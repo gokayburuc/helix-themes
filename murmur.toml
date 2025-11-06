@@ -3,6 +3,8 @@
 # Theme Creator : https://github.com/gokayburuc
 # Created: 2025-04-13
 
+# FIX: Murmur theme not highlighting the search item in picker
+
 
 "attribute" = { fg = "color4" }
 "keyword" = { fg = "color2" }

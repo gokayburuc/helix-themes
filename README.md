@@ -15,6 +15,7 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [Moxer](./moxer.toml) - Moxer Theme Port Variant from VSCode
 - [Strokai](./strokai.toml) - Strokai Theme Port form VSCode
 - [Lucy](./lucy.toml) - Cyberpunk Edgerunners' main character Lucyna Kushinada inspired Helix Editor Theme (Palette owner @gokayburuc)
+- [Synthwave84](./sytntwave84.toml) - Synthwave84 Theme Port from VSCode 
 
 ---
 
@@ -53,6 +54,9 @@ Strokai:
 
 Lucy:
 ![Lucy](./img/lucy.png)
+
+Synthwave84
+![Synthwave84](./img/synthwave84.png)
 
 ## 🚀 Usage
 

@@ -1,0 +1,21 @@
+#  Helix Doki Theme 
+# Copyright: "Gokay BURUC"
+# Theme Creator :https://github.com/gokayburuc
+# Created: 2025-11-07
+
+# TODO: add info and copyright 
+# TODO: add doki theme 
+# TODO: check the elements from the picture
+
+
+
+[palette]
+bg='#110F10'
+fg = '#F8F8F2'
+blue='#357FBF'
+brown='#A18649'
+cyan='#86DBFD'
+gray='#6272A4'
+orange='#DB974D'
+red='#E53935'
+yellow='#F5C443'

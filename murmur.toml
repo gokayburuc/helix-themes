@@ -5,7 +5,6 @@
 
 # FIX: Murmur theme not highlighting the search item in picker
 
-
 "attribute" = { fg = "color4" }
 "keyword" = { fg = "color2" }
 "keyword.directive" = { fg = "color1" }

@@ -1,0 +1,235 @@
+# Helix Editor Retro Green Theme 
+# Created: 2025-11-06
+# Copyright: "Gokay BURUC"
+# Theme Creator :https://github.com/gokayburuc
+
+# FIX: background foreground color balance
+# TODO: color balance
+
+# Attribute Highight 
+'attribute' = { fg = 'greenhl', modifiers=['bold'] }
+
+# Constructor Highlight
+'constructor' = { fg = 'greenhl', modifiers = ['bold'] }
+
+# Constant Highlight
+# 'constant.builtin' = { fg = 'magenta' }
+# 'constant.builtin.boolean' = { fg = 'yellow' }
+# 'constant.character' = {}
+# 'constant.character.escape' = {}
+'constant' = { fg = 'greenhl', modifiers = ['bold'] }
+# 'constant.numeric' = { fg = 'orange' }
+# 'constant.numeric.float' = {}
+# 'constant.numeric.integer' = {}
+
+# String Highlights
+'string' = { fg = 'green300', modifiers = ['italic'] }
+# 'string.regexp' = {}
+# 'string.special' = {}
+# 'string.special.path' = {}
+# 'string.special.url' = {}
+# 'string.special.symbol' = {}
+
+# Comment Highlights
+# 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
+# 'comment.block' = { fg = 'green', modifiers = ['italic'] }
+'comment' = { fg = 'green900', modifiers = ['italic'] }
+# 'comment.line' = {}
+# 'comment.line.documentation' = {}
+# 'comment.unused' = {}
+
+# Variable Highlights
+'variable' = { fg = 'greenhl', modifiers = ['italic', 'bold'] }
+# 'variable.builtin' = { fg = 'yellow' }
+# 'variable.parameter' = { fg = 'white' }
+# 'variable.other' = { fg = 'blue' }
+'variable.other.member' = { fg = 'greenhl', modifiers = ['italic'] }
+'variable.other.member.private' = { fg = 'greenhl' }
+
+# Label Highlights
+'label' = { fg = 'greenhl', modifiers = ['bold', 'italic'] }
+
+# Punctuation Highlights
+'punctuation' = { fg = 'greenhl', modifiers = ['bold'] }
+# 'punctuation.bracket' = { fg = 'red' }
+# 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
+# 'punctuation.special' = { fg = 'red' }
+
+# Keyword Highlights
+'keyword' = { fg = 'greenhl', modifiers = ['bold', 'italic'] }
+# 'keyword.control' = {}
+# 'keyword.control.conditional' = {}
+# 'keyword.control.repeat' = {}
+# 'keyword.control.import' = {}
+# 'keyword.control.return' = {}
+# 'keyword.control.exception' = {}
+
+# Operator Highlights
+'operator' = { fg = 'greenhl', modifiers = ['bold'] }
+
+# Directive Highlights (and,or,not)
+'directive' = { fg = 'greenhl' }
+
+# Special Highlights 
+'special' = { fg = 'greenhl' }
+
+# Namespace Highlights
+'namespace' = { fg = 'greenhl', modifiers = ['italic'] }
+
+# Function Highlights 
+'function' = { fg = 'greenhl', modifiers = ['bold', 'italic'] }
+# 'function.builtin' = { fg = 'blue' }
+# 'function.method' = { fg = 'white' }
+# 'function.method.private' = { fg = 'red' }
+# 'function.macro' = {}
+# 'function.special' = {}
+
+# Tag Highlights 
+'tag' = { fg = 'green700', modifiers = ['italic','bold'] }
+
+# Type Highlights 
+'type' = { fg = 'green300', modifiers = ['italic']}
+# 'type.bultin' = { fg = '' }
+# 'type.parameter' = { fg = '' }
+# 'type.enum' = { fg = '' }
+# 'type.enum.variant' = { fg = '' }
+
+# Markup Highlights 
+'markup.bold' = { fg = 'greenhl', modifiers = ['bold'] }
+'markup.italic' = { fg = 'greenhl', modifiers = ['italic'] }
+# 'markup.strikethrough' = { modifiers = ['crossed_out'] }
+'markup.heading' = { fg = 'greenhl', modifiers = ['bold'] }
+# 'markup.heading.marker' = { fg = 'red' }
+# 'markup.heading.1' = { fg = 'red' }
+# 'markup.heading.2' = { fg = 'red' }
+# 'markup.heading.3' = { fg = 'red' }
+# 'markup.heading.4' = { fg = 'red' }
+# 'markup.heading.5' = { fg = 'red' }
+# 'markup.heading.6' = { fg = 'red' }
+'markup.link' = { fg = 'greenhl' }
+# 'markup.link.url' = { fg = 'magenta' }
+# 'markup.link.text' = { fg = 'orange' }
+# 'markup.link.label' = { fg = 'green' }
+'markup.list' = { fg = 'greenhl', modifiers = ['bold'] }
+# 'markup.list.unnumbered' = { fg = 'red' }
+# 'markup.list.numbered' = { fg = 'red' }
+# 'markup.list.checked' = { fg = 'red' }
+# 'markup.list.unchecked' = { fg = 'red' }
+'markup.quote' = { fg = 'green', bg = 'base01', modifiers = ['italic'] }
+'markup.raw' = { fg = 'greenhl', bg='base02'}
+# 'markup.raw.block' = { fg = 'green', bg = 'base01' }
+# 'markup.raw.inline' = { fg = 'green', bg = 'base01' }
+
+# Diff Highlights
+# 'diff.delta.conflict' = { fg = 'green100' }
+'diff.delta' = { fg = 'green' }
+# 'diff.delta.gutter' = { fg = 'white' }
+# 'diff.delta.moved' = { fg = 'blue' }
+'diff.minus' = { fg = 'green' }
+# 'diff.minus.gutter' = { fg = 'red' }
+'diff.plus' = { fg = 'green' }
+# 'diff.plus.gutter' = { fg = 'green' }
+
+
+# ========================== INTERFACE ========================= 
+
+# Interface Configs
+# Markup Interface
+# 'markup' = {}
+# 'markup.normal' = {}
+# 'markup.completion' = {}
+# 'markup.hover' = {}
+# 'markup.heading.completion' = {}
+# 'markup.heading.hover' = {}
+# 'markup.raw.inline.completion' = {}
+# 'markup.raw.inline.hover'= {}
+
+# User Interface (UI) Configs 
+'ui.background' = { bg = 'base02' }
+'ui.bufferline' = { fg = 'green100', bg = 'base03' }
+'ui.bufferline.active' = { fg = 'greenhl', bg = 'base02' }
+# 'ui.bufferline.background' = { bg = 'base01' }
+'ui.cursor' = { bg = 'greenhl', fg = 'bg' }
+# 'ui.cursor.insert' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
+# 'ui.cursor.normal' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.insert' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.normal' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.select' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.select' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursorcolumn.primary' = {}
+# 'ui.cursorcolumn.secondary' = {}
+'ui.cursorline' = { bg = 'base02' }
+# 'ui.cursorline.primary' = { bg = 'bg-alt' }
+# 'ui.cursorline.secondary' = { bg = 'bg-alt' }
+# 'ui.debug.active' = {}
+# 'ui.debug.breakpoint' = {}
+# 'ui.gutter' = { fg = 'white' }
+# 'ui.gutter.selected' = {}
+'ui.help' = { fg = 'fg', bg = 'base03' }
+'ui.highlight' = { fg = 'greenhl', bg = 'green500' }
+'ui.highlight.frameline' = { fg = 'greenhl', bg = 'base03' }
+'ui.linenr' = { fg = 'green', bg = 'base01' }
+'ui.linenr.selected' = { fg = 'greenhl', bg = 'base01', modifiers = ['bold'] }
+'ui.menu' = { fg = 'fg', bg = 'base02' }
+'ui.menu.scroll' = { fg = 'base02' }
+'ui.menu.selected' = { bg = 'base03', fg = 'fg' }
+# 'ui.picker.header' = {}
+# 'ui.picker.header.column' = {}
+# 'ui.picker.header.column.active' = {}
+'ui.popup' = { bg = 'base01', fg = 'green300' }
+# 'ui.popup.info' = { bg = 'bg-alt' }
+'ui.selection' = { bg = 'green700' }
+# 'ui.selection.primary' = { bg = 'base02' }
+'ui.statusline' = { fg = 'greenhl', bg = 'base04' }
+# 'ui.statusline.inactive' = { bg = 'base03' }
+# 'ui.statusline.insert' = { bg = 'base03' }
+# 'ui.statusline.normal' = { bg = 'base03' }
+# 'ui.statusline.select' = { bg = 'base03' }
+# 'ui.statusline.seperator' = { bg = 'base03' }
+'ui.text' = { fg = 'greenhl' }
+# 'ui.text.directory' = { fg = 'fg' }
+# 'ui.text.focus' = { bg = 'bg-alt', fg = 'fg' }
+# 'ui.text.inactive' = { fg = 'fg' }
+# 'ui.text.info' = { fg = 'fg' }
+# 'ui.virtual.indent-guide' = { fg = 'base02' }
+# 'ui.virtual.inlay-hint' = { fg = 'base02' }
+# 'ui.virtual.inlay-hint.parameter' = { fg = 'base02' }
+# 'ui.virtual.inlay-hint.type' = { fg = 'base02' }
+# 'ui.virtual.jump-label' = { fg = 'base02' }
+'ui.virtual.ruler' = { bg = 'base01' }
+# 'ui.virtual.whitespace' = { fg = 'base02' }
+# 'ui.virtual.wrap' = { fg = 'base02' }
+'ui.window' = { fg = 'greenhl' }
+
+'error' = { fg = 'green100', modifiers = ['bold'] }
+'hint' = { fg = 'green300', modifiers = ['bold'] }
+'info' = { fg = 'green500', modifiers = ['bold'] }
+'warning' = { fg = 'green700', modifiers = ['bold']}
+
+# 'diagnostic' = {}
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+'diagnostic.error' = { underline = { color = 'green100', style = "curl" } }
+'diagnostic.hint' = { underline = { color = 'green300', style = "curl" } }
+'diagnostic.info' = { underline = { color = 'green500', style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+'diagnostic.warning' = { underline = { color = 'green700', style = "curl" } }
+# 'tabstop' = {}
+
+
+[palette]
+greenhl='#ADEBCC'
+green='#33CC7F'
+green100='#43BE7C'
+green300='#51A273'
+green500='#548466'
+green700='#4B6253'
+green900='#303431'
+
+fg ='#83d58f'
+bg ='#0C0D0D'
+base01='#0C0D0D'
+base02='#090A0A'
+base03='#060706'
+base04='#030303'

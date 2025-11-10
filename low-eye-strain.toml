@@ -3,6 +3,8 @@
 # Theme Creator :https://github.com/gokayburuc
 # Created : 2025-05-09
 
+# FIX: convert pastel colors
+
 'attribute' = { fg = 'blue' }
 'comment' = { fg = 'gray', modifiers = ['italic'] }
 'comment.block' = { fg = 'green', modifiers = ['italic'] }

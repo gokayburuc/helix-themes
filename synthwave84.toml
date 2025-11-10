@@ -54,7 +54,7 @@
 'punctuation.special' = { fg = 'white' }
 
 # Keyword Highlights
-# 'keyword' = { fg = 'yellow', modifiers = ['bold', 'italic'] }
+'keyword' = { fg = 'yellow', modifiers = ['bold', 'italic'] }
 'keyword.control' = {fg = 'yellow', modifiers = ['bold']}
 # 'keyword.control.conditional' = {}
 # 'keyword.control.repeat' = {}
@@ -75,12 +75,12 @@
 'namespace' = { fg = 'yellow500', modifiers = ['italic'] }
 
 # Function Highlights 
-# 'function' = { fg = 'cyan', modifiers = ['bold', 'italic'] }
-'function.builtin' = { fg = 'yellow', modifiers = ['bold','italic'] }
+'function' = { fg = 'cyan', modifiers = ['bold', 'italic'] }
+'function.builtin' = { fg = 'cyan', modifiers = ['bold','italic'] }
 'function.method' = { fg = 'cyan100' , modifiers= ['italic']}
 'function.method.private' = { fg = 'cyan300' }
-'function.macro' = {fg = 'cyan500'}
-'function.special' = {fg = 'cyan500'}
+'function.macro' = {fg = 'cyan300'}
+'function.special' = {fg = 'cyan300'}
 
 # Tag Highlights 
 'tag' = { fg = 'green300', modifiers = ['italic','bold'] }
@@ -217,9 +217,6 @@
 
 
 
-
-
-# NOTE: color palette 
 
 [palette]
 # black = ''

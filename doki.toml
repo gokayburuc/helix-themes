@@ -3,14 +3,230 @@
 # Theme Creator :https://github.com/gokayburuc
 # Created: 2025-11-07
 
-# TODO: add info and copyright 
-# TODO: add doki theme 
-# TODO: check the elements from the picture
+# TODO: check colors for javascript 
+# TODO: check colors for rust
+# TODO: check colors for go
+# TODO: check colors for html
+# TODO: check colors for css
+# TODO: check colors for bash
+
+
+# Attribute Highight 
+'attribute' = { fg = 'red' }
+
+# Constructor Highlight
+'constructor' = { fg = 'brown', modifiers = ['italic'] }
+# Constant Highlight
+'constant' = { fg = 'orange', modifiers = ['italic'] }
+# 'constant.builtin' = { fg = '' }
+# 'constant.builtin.boolean' = { fg = 'yellow' }
+# 'constant.character' = {fg = 'cyan'}
+# 'constant.character.escape' = {}
+# 'constant.numeric' = { fg = 'orange' }
+# 'constant.numeric.float' = {}
+# 'constant.numeric.integer' = {}
+
+# String Highlights
+'string' = { fg = 'orange', modifiers = ['italic'] }
+# 'string.regexp' = {}
+# 'string.special' = {}
+# 'string.special.path' = {}
+# 'string.special.url' = {}
+# 'string.special.symbol' = {}
+
+# Comment Highlights
+# 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
+# 'comment.block' = { fg = 'green', modifiers = ['italic'] }
+'comment' = { fg = 'gray', modifiers = ['italic'] }
+# 'comment.line' = {}
+# 'comment.line.documentation' = {}
+# 'comment.unused' = {}
+
+# Variable Highlights
+'variable' = { fg = 'red', modifiers = ['italic', 'bold'] }
+# 'variable.builtin' = { fg = 'yellow' }
+# 'variable.parameter' = { fg = 'white' }
+# 'variable.other' = { fg = 'cyan' }
+'variable.other.member' = { fg = 'yellow', modifiers = ['italic','bold'] }
+'variable.other.member.private' = { fg = 'blue', modifiers = ['italic','bold']}
+
+# Label Highlights
+'label' = { fg = 'yellow', modifiers = [ 'italic'] }
+
+# Punctuation Highlights
+'punctuation' = { fg = 'orange', modifiers = ['bold'] }
+'punctuation.bracket' = { fg = 'orange', modifiers=['bold']}
+'punctuatioblueimiter' = { fg = 'orange', modifiers = ['bold'] }
+'punctuatiobluecial' = { fg = 'orange' }
+
+# Keyword Hblueghts
+'keyword' = { fg = 'orange', modifiers = ['bold', 'italic'] }
+'keyword.control' = {fg = 'orange', modifiers = ['bold']}
+# 'keyword.control.conditional' = {}
+# 'keyword.control.repeat' = {}
+'keyword.control.import' = { fg = 'blue', modifiers = ['italic']}
+# 'keyword.control.return' = {}
+# 'keyword.control.exception' = {}
+
+# Operator Highlights
+'operator' = { fg = 'yellow', modifiers = ['bold'] }
+
+# Directive Highlights (and,or,not)
+'directive' = { fg = 'yellow' }
+
+# Special Highlights 
+'special' = { fg = 'yellow' }
+
+# Namespace Highlights
+'namespace' = { fg = 'cyan', modifiers = ['italic'] }
+
+# Function Highlights 
+'function' = { fg = 'blue', modifiers = ['bold', 'italic'] }
+'function.builtin' = { fg = 'blue', modifiers = ['bold','italic'] }
+'function.method' = { fg = 'blue' , modifiers= ['italic']}
+'function.method.private' = { fg = 'blue' }
+'function.macro' = {fg = 'blue'}
+'function.special' = {fg = 'blue'}
+
+# Tag Highlights 
+'tag' = { fg = 'blue', modifiers = ['italic','bold'] }
+
+# Type Highlights 
+'type' = { fg = 'yellow', modifiers = ['italic']}
+# 'type.bultin' = { fg = '' }
+# 'type.parameter' = { fg = '' }
+# 'type.enum' = { fg = '' }
+# 'type.enum.variant' = { fg = '' }
+
+# Markup Highlights 
+'markup.bold' = { fg = 'blue', modifiers = ['bold'] }
+'markup.italic' = { fg = 'cyan', modifiers = ['italic'] }
+# 'markup.strikethrough' = { modifiers = ['crossed_out'] }
+'markup.heading' = { fg = 'orange', modifiers = ['bold'] }
+# 'markup.heading.marker' = { fg = 'red' }
+# 'markup.heading.1' = { fg = 'red' }
+# 'markup.heading.2' = { fg = 'red' }
+# 'markup.heading.3' = { fg = 'red' }
+# 'markup.heading.4' = { fg = 'red' }
+# 'markup.heading.5' = { fg = 'red' }
+# 'markup.heading.6' = { fg = 'red' }
+# 'markup.link' = { fg = 'pink700' }
+'markup.link.url' = { fg = 'yellow' }
+'markup.link.text' = { fg = 'white' }
+'markup.link.label' = { fg = 'yellow' }
+'markup.list' = { fg = 'red', modifiers = ['bold'] }
+# 'markup.list.unnumbered' = { fg = 'red' }
+# 'markup.list.numbered' = { fg = 'red' }
+# 'markup.list.checked' = { fg = 'red' }
+# 'markup.list.unchecked' = { fg = 'red' }
+'markup.quote' = { fg = 'cyan', bg = 'bg01', modifiers = ['italic'] }
+'markup.raw' = { fg = 'blue'}
+# 'markup.raw.block' = { fg = 'green', bg = 'bg' }
+# 'markup.raw.inline' = { fg = 'green', bg = 'bg' }
+
+# Diff Highlights
+# 'diff.delta.conflict' = { fg = 'pink' }
+'diff.delta' = { fg = 'yellow' }
+# 'diff.delta.gutter' = { fg = 'white' }
+# 'diff.delta.moved' = { fg = 'cyan' }
+'diff.minus' = { fg = 'red' }
+# 'diff.minus.gutter' = { fg = 'red' }
+'diff.plus' = { fg = 'cyan' }
+# 'diff.plus.gutter' = { fg = 'green' }
+
+
+# ========================== INTERFACE ========================= 
+
+# Interface Configs
+# Markup Interface
+# 'markup' = {}
+# 'markup.normal' = {}
+# 'markup.completion' = {}
+# 'markup.hover' = {}
+# 'markup.heading.completion' = {}
+# 'markup.heading.hover' = {}
+# 'markup.raw.inline.completion' = {}
+# 'markup.raw.inline.hover'= {}
+
+# User Interface (UI) Configs 
+'ui.background' = { bg = 'bg' }
+'ui.bufferline' = { fg = 'orange', bg = 'bg01' }
+'ui.bufferline.active' = { fg = 'yellow', bg = 'bg01' }
+# 'ui.bufferline.background' = { bg = 'bg01' }
+'ui.cursor' = { bg = 'orange', fg = 'bg' }
+# 'ui.cursor.insert' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.match' = { fg = 'red', modifiers = ['bold'] }
+# 'ui.cursor.normal' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.insert' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.normal' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.primary.select' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursor.select' = { bg = 'orange', fg = 'bg-alt' }
+# 'ui.cursorcolumn.primary' = {}
+# 'ui.cursorcolumn.secondary' = {}
+# 'ui.cursorline' = { bg = 'bg-alt' }
+# 'ui.cursorline.primary' = { bg = 'bg-alt' }
+# 'ui.cursorline.secondary' = { bg = 'bg-alt' }
+# 'ui.debug.active' = {}
+# 'ui.debug.breakpoint' = {}
+# 'ui.gutter' = { fg = 'white' }
+# 'ui.gutter.selected' = {}
+'ui.help' = { fg = 'fg', bg = 'bg02' }
+'ui.highlight' = { fg = 'fg', bg = 'bg01' }
+'ui.highlight.frameline' = { fg = 'fg', bg = 'bg02' }
+'ui.linenr' = { fg = 'orange', bg = 'bg' }
+'ui.linenr.selected' = { fg = 'yellow', bg = 'bg', modifiers = ['bold'] }
+'ui.menu' = { fg = 'fg', bg = 'bg01' }
+'ui.menu.scroll' = { fg = 'bg02' }
+'ui.menu.selected' = { bg = 'bg03', fg = 'fg' }
+# 'ui.picker.header' = {}
+# 'ui.picker.header.column' = {}
+# 'ui.picker.header.column.active' = {}
+'ui.popup' = { bg = 'bg01', fg = 'white' }
+'ui.popup.info' = {fg ='fg', bg = 'bg', modifiers=['bold'] }
+'ui.selection' = { bg = 'red' }
+# 'ui.selection.primary' = { bg = 'bg02' }
+'ui.statusline' = { fg = 'orange', bg = 'bg01' }
+# 'ui.statusline.inactive' = { bg = 'base03' }
+# 'ui.statusline.insert' = { bg = 'base03' }
+# 'ui.statusline.normal' = { bg = 'base03' }
+# 'ui.statusline.select' = { bg = 'base03' }
+# 'ui.statusline.seperator' = { bg = 'base03' }
+'ui.text' = { fg = 'fg' }
+# 'ui.text.directory' = { fg = 'fg' }
+# 'ui.text.focus' = { bg = 'bg-alt', fg = 'fg' }
+# 'ui.text.inactive' = { fg = 'fg' }
+# 'ui.text.info' = { fg = 'fg' }
+# 'ui.virtual.indent-guide' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint.parameter' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint.type' = { fg = 'bg02' }
+# 'ui.virtual.jump-label' = { fg = 'bg02' }
+'ui.virtual.ruler' = { bg = 'bg01' }
+# 'ui.virtual.whitespace' = { fg = 'bg02' }
+# 'ui.virtual.wrap' = { fg = 'bg02' }
+'ui.window' = { fg = 'gray' }
+
+'error' = { fg = 'red', modifiers = ['bold'] }
+'hint' = { fg = 'cyan', modifiers = ['bold'] }
+'info' = { fg = 'white', modifiers = ['bold'] }
+'warning' = { fg = 'orange', modifiers = ['bold']}
+
+# 'diagnostic' = {}
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+'diagnostic.error' = { underline = { color = 'red', style = "curl" } }
+'diagnostic.hint' = { underline = { color = 'red', style = "curl" } }
+'diagnostic.info' = { underline = { color = 'cyan', style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+'diagnostic.warning' = { underline = { color = 'yellow', style = "curl" } }
+# 'tabstop' = {}
+
 
 
 
 [palette]
-bg='#110F10'
+# bg='#110F10'
+bg='#151515'
 fg = '#F8F8F2'
 blue='#357FBF'
 brown='#A18649'
@@ -19,3 +235,7 @@ gray='#6272A4'
 orange='#DB974D'
 red='#E53935'
 yellow='#F5C443'
+bg01='#111111'
+bg02='#0C0C0C'
+bg03='#060606'
+bg04='#000000'

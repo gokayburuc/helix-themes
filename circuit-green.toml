@@ -1,0 +1,242 @@
+# Circuit Green Theme 
+# Copyright: "Gokay BURUC"
+# Theme Creator :https://github.com/gokayburuc
+# Created : 2025-11-13
+
+# TODO: create circuit green theme
+
+# Attribute Highight 
+'attribute' = { fg = 'green' }
+
+# Constructor Highlight
+'constructor' = { fg = 'cyan', modifiers = ['italic'] }
+
+# Constant Highlight
+'constant' = { fg = 'cyan500', modifiers = ['italic'] }
+# 'constant.builtin' = { fg = 'cyan' }
+# 'constant.builtin.boolean' = { fg = 'green' }
+'constant.character' = {fg = 'green100'}
+# 'constant.character.escape' = {}
+# 'constant.numeric' = { fg = 'green300' }
+# 'constant.numeric.float' = {}
+# 'constant.numeric.integer' = {}
+
+# String Highlights
+'string' = { fg = 'green', modifiers = ['italic'] }
+# 'string.regexp' = {}
+# 'string.special' = {}
+# 'string.special.path' = {}
+# 'string.special.url' = {}
+# 'string.special.symbol' = {}
+
+# Comment Highlights
+# 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
+# 'comment.block' = { fg = 'green', modifiers = ['italic'] }
+'comment' = { fg = 'gray100', modifiers = ['italic'] }
+# 'comment.line' = {}
+# 'comment.line.documentation' = {}
+# 'comment.unused' = {}
+
+# Variable Highlights
+'variable' = { fg = 'cyan300', modifiers = ['italic', 'bold'] }
+# 'variable.builtin' = { fg = 'green' }
+# 'variable.parameter' = { fg = 'white' }
+# 'variable.other' = { fg = 'cyan' }
+'variable.other.member' = { fg = 'green100', modifiers = ['italic','bold'] }
+'variable.other.member.private' = { fg = 'green300', modifiers = ['italic','bold']}
+
+# Label Highlights
+'label' = { fg = 'green', modifiers = [ 'italic'] }
+
+# Punctuation Highlights
+'punctuation' = { fg = 'cyan100', modifiers = ['bold'] }
+'punctuation.bracket' = { fg = 'cyan100', modifiers=['bold']}
+'punctuation.delim1ter' = { fg = 'cyan100', modifiers = ['bold'] }
+'punctuation.speci1l' = { fg = 'cyan100' }
+
+# Keyword Highligh1s
+'keyword' = { fg = 'green', modifiers = ['bold', 'italic'] }
+'keyword.control' = {fg = 'green', modifiers = ['bold']}
+# 'keyword.control.conditional' = {}
+# 'keyword.control.repeat' = {}
+'keyword.control.import' = { fg = 'green', modifiers = ['italic','bold']}
+# 'keyword.control.return' = {}
+# 'keyword.control.exception' = {}
+
+# Operator Highlights
+'operator' = { fg = 'green300', modifiers = ['bold'] }
+
+# Directive Highlights (and,or,not)
+'directive' = { fg = 'green500' }
+
+# Special Highlights 
+'special' = { fg = 'green' }
+
+# Namespace Highlights
+'namespace' = { fg = 'green100', modifiers = ['italic'] }
+
+# Function Highlights 
+'function' = { fg = 'cyan', modifiers = ['bold', 'italic'] }
+'function.builtin' = { fg = 'cyan', modifiers = ['bold','italic'] }
+'function.method' = { fg = 'cyan100' , modifiers= ['italic']}
+'function.method.private' = { fg = 'cyan300' }
+'function.macro' = {fg = 'cyan300'}
+'function.special' = {fg = 'cyan300'}
+
+# Tag Highlights 
+'tag' = { fg = 'green300', modifiers = ['italic','bold'] }
+
+# Type Highlights 
+'type' = { fg = 'cyan100', modifiers = ['italic']}
+# 'type.bultin' = { fg = '' }
+# 'type.parameter' = { fg = '' }
+# 'type.enum' = { fg = '' }
+# 'type.enum.variant' = { fg = '' }
+
+# Markup Highlights 
+'markup.bold' = { fg = 'cyan100', modifiers = ['bold'] }
+'markup.italic' = { fg = 'green300', modifiers = ['italic'] }
+# 'markup.strikethrough' = { modifiers = ['crossed_out'] }
+'markup.heading' = { fg = 'cyan', modifiers = ['bold'] }
+# 'markup.heading.marker' = { fg = 'cyan500' }
+# 'markup.heading.1' = { fg = 'cyan500' }
+# 'markup.heading.2' = { fg = 'cyan500' }
+# 'markup.heading.3' = { fg = 'cyan500' }
+# 'markup.heading.4' = { fg = 'cyan500' }
+# 'markup.heading.5' = { fg = 'cyan500' }
+# 'markup.heading.6' = { fg = 'cyan500' }
+# 'markup.link' = { fg = 'cyan700' }
+'markup.link.url' = { fg = 'green100' }
+'markup.link.text' = { fg = 'green100' }
+'markup.link.label' = { fg = 'green100' }
+'markup.list' = { fg = 'cyan700', modifiers = ['bold'] }
+# 'markup.list.unnumbecyan500' = { fg = 'cyan500' }
+# 'markup.list.numbecyan500' = { fg = 'cyan500' }
+# 'markup.list.checked' = { fg = 'cyan500' }
+# 'markup.list.unchecked' = { fg = 'cyan500' }
+'markup.quote' = { fg = 'cyan500', bg = 'bg01', modifiers = ['italic'] }
+'markup.raw' = { fg = 'green100'}
+# 'markup.raw.block' = { fg = 'green', bg = 'base00' }
+# 'markup.raw.inline' = { fg = 'green', bg = 'base00' }
+
+# Diff Highlights
+# 'diff.delta.conflict' = { fg = 'cyan' }
+'diff.delta' = { fg = 'cyan' }
+# 'diff.delta.gutter' = { fg = 'white' }
+# 'diff.delta.moved' = { fg = 'cyan' }
+'diff.minus' = { fg = 'cyan' }
+# 'diff.minus.gutter' = { fg = 'cyan500' }
+'diff.plus' = { fg = 'cyan' }
+# 'diff.plus.gutter' = { fg = 'green' }
+
+
+# ========================== INTERFACE ========================= 
+
+# Interface Configs
+# Markup Interface
+# 'markup' = {}
+# 'markup.normal' = {}
+# 'markup.completion' = {}
+# 'markup.hover' = {}
+# 'markup.heading.completion' = {}
+# 'markup.heading.hover' = {}
+# 'markup.raw.inline.completion' = {}
+# 'markup.raw.inline.hover'= {}
+
+# User Interface (UI) Configs 
+'ui.background' = { bg = 'bg' }
+'ui.bufferline' = { fg = 'cyan100', bg = 'bg01' }
+'ui.bufferline.active' = { fg = 'cyan', bg = 'bg01' }
+# 'ui.bufferline.background' = { bg = 'bg01' }
+'ui.cursor' = { bg = 'fg', fg = 'bg' }
+# 'ui.cursor.insert' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.match' = { fg = 'cyan500', modifiers = ['bold'] }
+# 'ui.cursor.normal' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.primary' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.primary.insert' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.primary.normal' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.primary.select' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursor.select' = { bg = 'green300', fg = 'bg-alt' }
+# 'ui.cursorcolumn.primary' = {}
+# 'ui.cursorcolumn.secondary' = {}
+# 'ui.cursorline' = { bg = 'bg-alt' }
+# 'ui.cursorline.primary' = { bg = 'bg-alt' }
+# 'ui.cursorline.secondary' = { bg = 'bg-alt' }
+# 'ui.debug.active' = {}
+# 'ui.debug.breakpoint' = {}
+# 'ui.gutter' = { fg = 'white' }
+# 'ui.gutter.selected' = {}
+'ui.help' = { fg = 'fg', bg = 'bg02' }
+'ui.highlight' = { fg = 'fg', bg = 'bg01' }
+'ui.highlight.frameline' = { fg = 'fg', bg = 'bg02' }
+'ui.linenr' = { fg = 'cyan300', bg = 'bg' }
+'ui.linenr.selected' = { fg = 'green', bg = 'bg', modifiers = ['bold'] }
+'ui.menu' = { fg = 'fg', bg = 'bg01' }
+'ui.menu.scroll' = { fg = 'bg02' }
+'ui.menu.selected' = { bg = 'bg03', fg = 'fg' }
+# 'ui.picker.header' = {}
+# 'ui.picker.header.column' = {}
+# 'ui.picker.header.column.active' = {}
+'ui.popup' = { bg = 'bg01', fg = 'cyan300' }
+# 'ui.popup.info' = { bg = 'bg-alt' }
+'ui.selection' = { bg = 'base04' }
+# 'ui.selection.primary' = { bg = 'bg02' }
+'ui.statusline' = { fg = 'cyan700', bg = 'bg01' }
+# 'ui.statusline.inactive' = { bg = 'bg03' }
+# 'ui.statusline.insert' = { bg = 'bg03' }
+# 'ui.statusline.normal' = { bg = 'bg03' }
+# 'ui.statusline.select' = { bg = 'bg03' }
+# 'ui.statusline.seperator' = { bg = 'bg03' }
+'ui.text' = { fg = 'fg' }
+# 'ui.text.directory' = { fg = 'fg' }
+# 'ui.text.focus' = { bg = 'bg-alt', fg = 'fg' }
+# 'ui.text.inactive' = { fg = 'fg' }
+# 'ui.text.info' = { fg = 'fg' }
+# 'ui.virtual.indent-guide' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint.parameter' = { fg = 'bg02' }
+# 'ui.virtual.inlay-hint.type' = { fg = 'bg02' }
+# 'ui.virtual.jump-label' = { fg = 'bg02' }
+'ui.virtual.ruler' = { bg = 'bg01' }
+# 'ui.virtual.whitespace' = { fg = 'bg02' }
+# 'ui.virtual.wrap' = { fg = 'bg02' }
+'ui.window' = { fg = 'gray' }
+
+'error' = { fg = 'cyan', modifiers = ['bold'] }
+'hint' = { fg = 'green', modifiers = ['bold'] }
+'info' = { fg = 'green100', modifiers = ['bold'] }
+'warning' = { fg = 'cyan100', modifiers = ['bold']}
+
+# 'diagnostic' = {}
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+'diagnostic.error' = { underline = { color = 'green300', style = "curl" } }
+'diagnostic.hint' = { underline = { color = 'green300', style = "curl" } }
+'diagnostic.info' = { underline = { color = 'cyan', style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+'diagnostic.warning' = { underline = { color = 'green300', style = "curl" } }
+# 'tabstop' = {}
+
+
+
+
+[palette]
+bg = '#031E1D'
+fg = '#00FFD8'
+cyan='#00FFD8'
+cyan100='#50DDBF'
+cyan300='#61B8A3'
+cyan500='#619084'
+cyan700='#50615C'
+green='#00A36B'
+green100='#308C62'
+green300='#3B7458'
+green500='#3B5A49'
+green700='#303B35'
+bg01='#061818'
+bg02='#071312'
+bg03='#060C0C'
+bg04='#040505'
+
+# TODO: color balance in cyan
+# TODO: COLOR balance in green
+# TODO: from 100 lightness to 10 lightness color palette

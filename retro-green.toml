@@ -5,6 +5,8 @@
 
 # FIX: background foreground color balance
 # TODO: color balance
+# TODO: choose color again
+
 
 # Attribute Highight 
 'attribute' = { fg = 'greenhl', modifiers=['bold'] }

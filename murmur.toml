@@ -98,7 +98,7 @@
 "ui.text.focus" = { fg = "color4", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "color8" }
 "ui.text.info" = { fg = "color6" }
-"ui.highlight" = { fg = "color3" }
+"ui.highlight" = { bg = "color0", fg = "color6", modifiers = ["bold"] }
 
 "ui.cursor.primary" = { fg = "background", bg = "foreground" }
 "ui.cursor.select" = { fg = "color0", bg = "color6" }

@@ -1,6 +1,5 @@
-# Helix Editor Retro Green Theme 
-# Created: 2025-11-06
-# Updated: 2026-07-27
+# Helix Editor Amoled Pure Black Theme 
+# Created: 2026-07-27
 # Copyright: "Gokay BURUC"
 # Theme Creator :https://github.com/gokayburuc
 
@@ -15,13 +14,13 @@
 # 'constant.builtin.boolean' = { fg = 'yellow' }
 # 'constant.character' = {}
 # 'constant.character.escape' = {}
-'constant' = { fg = 'green100', modifiers = ['bold'] }
+'constant' = { fg = 'green300', modifiers = ['bold'] }
 # 'constant.numeric' = { fg = 'orange' }
 # 'constant.numeric.float' = {}
 # 'constant.numeric.integer' = {}
 
 # String Highlights
-'string' = { fg = 'green', modifiers = ['italic', 'bold'] }
+'string' = { fg = 'green1100', modifiers = ['italic', 'bold'] }
 # 'string.regexp' = {}
 'string.special' = {fg = 'green300'}
 # 'string.special.path' = {}
@@ -31,7 +30,7 @@
 # Comment Highlights
 # 'comment.block.documentation' = { fg = 'green', modifiers = ['italic'] }
 # 'comment.block' = { fg = 'green', modifiers = ['italic'] }
-'comment' = { fg = 'green900', modifiers = ['italic'] }
+'comment' = { fg = 'greenhl', modifiers = ['italic'] }
 # 'comment.line' = {}
 # 'comment.line.documentation' = {}
 # 'comment.unused' = {}
@@ -41,20 +40,20 @@
 # 'variable.builtin' = { fg = 'yellow' }
 # 'variable.parameter' = { fg = 'white' }
 # 'variable.other' = { fg = 'blue' }
-'variable.other.member' = { fg = 'greenhl', modifiers = ['italic'] }
-'variable.other.member.private' = { fg = 'greenhl' }
+'variable.other.member' = { fg = 'green700', modifiers = ['italic'] }
+'variable.other.member.private' = { fg = 'green500' }
 
 # Label Highlights
 'label' = { fg = 'greenhl', modifiers = ['bold', 'italic'] }
 
 # Punctuation Highlights
-'punctuation' = { fg = 'greenhl', modifiers = ['bold'] }
+'punctuation' = { fg = 'green', modifiers = ['bold'] }
 # 'punctuation.bracket' = { fg = 'red' }
 # 'punctuation.delimiter' = { fg = 'red', modifiers = ['bold'] }
 # 'punctuation.special' = { fg = 'red' }
 
 # Keyword Highlights
-'keyword' = { fg = 'green300', modifiers = ['bold', 'italic'] }
+'keyword' = { fg = 'green100', modifiers = ['bold', 'italic'] }
 # 'keyword.control' = {}
 # 'keyword.control.conditional' = {}
 # 'keyword.control.repeat' = {}
@@ -72,10 +71,10 @@
 'special' = { fg = 'greenhl' }
 
 # Namespace Highlights
-'namespace' = { fg = 'green500', modifiers = ['italic'] }
+'namespace' = { fg = 'green700', modifiers = ['italic'] }
 
 # Function Highlights 
-'function' = { fg = 'green100', modifiers = ['italic'] }
+'function' = { fg = 'green500', modifiers = ['italic'] }
 # 'function.builtin' = { fg = 'blue' }
 # 'function.method' = { fg = 'white' }
 # 'function.method.private' = { fg = 'red' }
@@ -86,7 +85,7 @@
 'tag' = { fg = 'green700', modifiers = ['italic','bold'] }
 
 # Type Highlights 
-'type' = { fg = 'green300', modifiers = ['italic']}
+'type' = { fg = 'green1500', modifiers = ['italic']}
 # 'type.bultin' = { fg = '' }
 # 'type.parameter' = { fg = '' }
 # 'type.enum' = { fg = '' }
@@ -166,19 +165,19 @@
 # 'ui.gutter' = { fg = 'white' }
 # 'ui.gutter.selected' = {}
 'ui.help' = { fg = 'fg', bg = 'base03' }
-'ui.highlight' = { fg = 'greenhl', bg = 'green500' }
-'ui.highlight.frameline' = { fg = 'greenhl', bg = 'base03' }
+'ui.highlight' = { fg = '#000000', bg = 'green1300' }
+'ui.highlight.frameline' = { fg = '#000000', bg = 'greenhl' }
 'ui.linenr' = { fg = 'green', bg = 'base01' }
-'ui.linenr.selected' = { fg = 'green100', bg = 'base01', modifiers = ['bold'] }
-'ui.menu' = { fg = 'fg', bg = 'base02' }
-'ui.menu.scroll' = { fg = 'base03' }
-'ui.menu.selected' = { bg = 'base04', fg = 'fg' }
+'ui.linenr.selected' = { fg = 'green300', bg = 'base01', modifiers = ['bold'] }
+'ui.menu' = { fg = 'fg', bg = 'bg' }
+'ui.menu.scroll' = { fg = 'green300', bg='bg' }
+'ui.menu.selected' = { bg = 'base04', fg = 'green300' }
 # 'ui.picker.header' = {}
 # 'ui.picker.header.column' = {}
 # 'ui.picker.header.column.active' = {}
-'ui.popup' = { bg = 'base01', fg = 'green300' }
+'ui.popup' = { bg = 'bg', fg = 'green' }
 # 'ui.popup.info' = { bg = 'bg-alt' }
-'ui.selection' = { bg = 'green900' }
+'ui.selection' = { bg = 'greenhl', fg='green' }
 # 'ui.selection.primary' = { bg = 'base02' }
 'ui.statusline' = { fg = 'greenhl', bg = 'base04' }
 # 'ui.statusline.inactive' = { bg = 'base03' }
@@ -186,7 +185,7 @@
 # 'ui.statusline.normal' = { bg = 'base03' }
 # 'ui.statusline.select' = { bg = 'base03' }
 # 'ui.statusline.seperator' = { bg = 'base03' }
-'ui.text' = { fg = 'greenhl' }
+'ui.text' = { fg = 'green300' }
 # 'ui.text.directory' = { fg = 'fg' }
 # 'ui.text.focus' = { bg = 'bg-alt', fg = 'fg' }
 # 'ui.text.inactive' = { fg = 'fg' }
@@ -217,20 +216,23 @@
 
 
 [palette]
-greenhl='#9afeb3'
-green='#68fd8d'
-green100='#36fc67'
-green300='#03fc41'
-green500='#03c934'
-green700='#029727'
-green900='#01651a'
+greenhl='#393939'
+green='#aaff00'
+green100='#9500ff'
+green300='#00ffea'
+green500='#ff2a00'
+green700='#ff8000'
+green900='#ff0095'
+green1100='#00ff15'
+green1300='#ffff00'
+green1500='#0000ff'
 
-fg ='#68fd8d'
-bg ='#000d03'
-base01='#000d03'
-base02='#001907'
-base03='#00260a'
-base04='#01320d'
+fg ='#393939'
+bg ='#000000'
+base01='#000000'
+base02='#000000'
+base03='#000000'
+base04='#000000'
 
 
 

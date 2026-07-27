@@ -11,13 +11,15 @@ This repository contains various **themes** for the [Helix Editor](https://helix
 - [NightWolf](./nightwolf.toml) - AMOLED theme for NightWolves
 - [LowEyeStrain](./low-eye-strain.toml) - Low Eye Strain Dark Neon Theme For Night Owls
 - [NeonCity](./neon-city.toml) - Neon City Theme for Synthwave Lovers
-- [EdgeNightSky](./edge-night-sky.toml) - Low Contrast Night Theme for Night Coders 
+- [EdgeNightSky](./edge-night-sky.toml) - Low Contrast Night Theme for Night Coders
 - [Moxer](./moxer.toml) - Moxer Theme Port Variant from VSCode
 - [Strokai](./strokai.toml) - Strokai Theme Port form VSCode
 - [Lucy](./lucy.toml) - Cyberpunk Edgerunners' main character Lucyna Kushinada inspired Helix Editor Theme (Palette owner @gokayburuc)
-- [Synthwave84](./synthwave84.toml) - Synthwave84 Theme Port from VSCode 
+- [Synthwave84](./synthwave84.toml) - Synthwave84 Theme Port from VSCode
 - [Doki](./doki.toml) - Doki Theme Port from VSCode
 - [PastelBlack](./pastel-black.toml) - Pastel Black Theme For NightOwls
+- [Retro Green](./retro-green.toml) - Theme for the Ancient Ones
+- [Amoled Pure Black](./amoled-pure-black.toml) - Theme to Amoled Black Lovers
 
 ---
 
@@ -65,6 +67,12 @@ Doki
 
 Pastel Black
 ![PastelBlack](./img/pastel-black.png)
+
+Retro Green
+![RetroGreen](./img/retro-green.png)
+
+AMOLED Pure Black
+![AmoledPureBlack](./img/amoled-black.png)
 
 ## 🚀 Usage
 
